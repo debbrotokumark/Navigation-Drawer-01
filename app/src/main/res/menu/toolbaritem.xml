@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share_24"
+        android:iconTint="@color/white"
+        android:title="Share"
+        app:showAsAction="ifRoom"
+
+        />
+
+    <item
+        android:id="@+id/Like"
+        android:icon="@drawable/subscriptions_24"
+        android:iconTint="@color/white"
+        android:title="Like"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
